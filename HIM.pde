@@ -2,14 +2,15 @@ int x,y,r ;
 float alf;
 void setup()
 {
-size (680,480);
+size (520,600);
 r=150;
 }
 void draw()
 {
-background(100);
-alf=alf+0.5;
+background(0,150,120);
+alf=alf+5;
 x=270+round(r*cos(PI*alf/180));
 y=270+round(r*sin(PI*alf/180));
-ellipse(x,y,10,10);
+ellipse(x,y,50,50);
+fill(0,0,240);
 }
